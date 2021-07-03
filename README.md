@@ -9,7 +9,7 @@ Let's be happy by seeing confetti on classroom
 # How to use
 1. Go to [Google Classroom](https://classroom.google.com).
 1. Be happy to study :)
-1. Click somewhere in a page whenever you want to stop confetti.
+1. Click the button on the control panel placed in left bottom in a page whenever you want to stop or restart confetti.
 
 # License
 [MIT](LICENSE)
