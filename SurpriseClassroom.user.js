@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Surprise classroom
 // @namespace    https://scrpg.tyanoyu.net/
-// @version      0.4
+// @version      0.5
 // @description  Let's surprise someone who uses Google Classroom!
 // @author       mtripg6666tdr
 // @match        https://classroom.google.com/*
@@ -62,5 +62,9 @@
         controllerContainer.appendChild(stopButton);
         controllerContainer.appendChild(closeButton);
         body.appendChild(controllerContainer);
+        // Resize Confetti
+        window.addEventListener("resize", ()=>{
+            confetti.ResizeConfetti();
+        });
     });
 })();
